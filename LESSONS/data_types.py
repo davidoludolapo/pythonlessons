@@ -139,4 +139,13 @@ print(round(math.pi, 3))
 
 print("")
 
-#Cast a sting to a number
+#Cast a string to a number
+
+zip_code = "10001"
+zip_value = int(zip_code)
+print(type(zip_value))
+
+#Error  if you attempt cats incorrect data
+
+# zip_value = int("New york")
+# print(zip_value)
