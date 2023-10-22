@@ -187,3 +187,52 @@ print(f"\n{word.title()}: {prog_words[word]}")
 
 word = 'dictionary'
 print(f"\n{word.title()}: {prog_words[word]}")
+
+#looping through a dictionary
+
+user_0 = {
+'username': 'efermi',
+'first': 'enrico',
+'last': 'fermi',
+}
+
+print("")
+
+for key, value in user_0.items():
+    print(f"\nKey: {key}")
+    print(f"Value: {value}")
+
+print("")
+
+
+favorite_languages = {
+'jen': 'python',
+'sarah': 'c',
+'edward': 'ruby',
+'phil': 'python',
+}
+for name, language in favorite_languages.items():
+    print(f"{name.title()}'s favorite language is {language.title()}.")
+
+
+#looping through all the keys
+print("")
+
+favorite_languages = {
+'jen': 'python',
+'sarah': 'c',
+'edward': 'ruby',
+'phil': 'python',
+}
+# for name in favorite_languages.keys():
+#     print(name.title())
+
+print("")
+
+friends =['phil', 'sarah', 'jen']
+for name in favorite_languages.keys():
+    print(name.title())
+
+    if name in friends:
+        language = favorite_languages[name].title()
+        print(f"\t Hi, {name.title()}, I see you love {language}")
