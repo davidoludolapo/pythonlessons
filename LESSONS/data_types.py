@@ -149,3 +149,9 @@ print(type(zip_value))
 
 # zip_value = int("New york")
 # print(zip_value)
+
+import sys
+
+print(sys.argv)
+print(sys.argv[0]) # program name
+print(sys.argv[1]) # first arg
